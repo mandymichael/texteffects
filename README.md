@@ -1,2 +1,2 @@
-# texteffects
-A place for text effects!
+# TextEffects.dev
+A place for text effects

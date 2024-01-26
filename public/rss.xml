@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Text Lab | RSS Feed]]></title>
+        <description><![CDATA[Text lab, a resource for using, styling and creating text on the web. Whether it is for fun, practical css, accessibility and more. Exploring modern text approaches.]]></description>
+        <link>https://texteffects.dev</link>
+        <image>
+            <url>https://texteffects.dev/favicon-32x32.png</url>
+            <title>Text Lab | RSS Feed</title>
+            <link>https://texteffects.dev</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 25 Jan 2024 23:21:29 GMT</lastBuildDate>
+        <atom:link href="https://texteffects.dev/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 25 Jan 2024 23:21:29 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
+        <item>
+            <title><![CDATA[Animating Font Palette]]></title>
+            <link>https://texteffects.dev/posts/animating-font-palette</link>
+            <guid isPermaLink="true">https://texteffects.dev/posts/animating-font-palette</guid>
+            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Using Font Variant Numeric]]></title>
+            <link>https://texteffects.dev/posts/font-variant-numeric</link>
+            <guid isPermaLink="true">https://texteffects.dev/posts/font-variant-numeric</guid>
+            <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to use a color font]]></title>
+            <link>https://texteffects.dev/posts/using-color-fonts</link>
+            <guid isPermaLink="true">https://texteffects.dev/posts/using-color-fonts</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
