@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className={FooterStyles.footerContainer}>
             <div className={FooterStyles.footerBlock}>
-                <Image src="/images/Logo.svg" alt="Text Lab" className={FooterStyles.logo} width="80" height="80" />
+                <Image src="/images/Logo.svg" alt="Text Effects" className={FooterStyles.logo} width="80" height="80" />
             </div>
             
             <div className={FooterStyles.footerLinks}>

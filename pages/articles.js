@@ -23,10 +23,10 @@ export default function Home({ articles, featuredList, displayList }) {
             title="Articles about text"
             description="Articles about text, text properties, performance, usage, demos and explanations" 
             url="https://texteffects.dev/articles"
-            keywords="Text lab, articles, font demos, fonts"
+            keywords="Text Effects, articles, font demos, fonts"
             image="/images/metadata/main-og2.jpg"
         />
-        <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+        <GoogleAnalytics gaId="G-T24VEWMP9E" />
 
         <main className={HomeStyles.main} >
             <Header/>

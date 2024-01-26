@@ -10,31 +10,31 @@ import FeaturedPost from '../components/featuredPost';
 import HeadBlock from '../components/head.js';
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-const description="Articles about text, text properties, accessibility, performance, usage, demos and explanations" 
-const keywords ='Text lab, text properties, css, mandy michael'
+const description="Articles exploring the world of text effects using CSS, HTML, and JavaScript" 
+const keywords ='Text Effects, css, mandy michael'
 
 export default function Home({ recentPosts, articles, featuredPost }) {
   return (
     <div className={Generic.pageContainer}>
 
       <HeadBlock 
-        title="Text Lab" 
+        title="Text Effects" 
         description={description}
         url="https://texteffects.dev"
         keywords={keywords}
         image="/images/metadata/main-og3.jpg"
       />
-      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+      <GoogleAnalytics gaId="G-T24VEWMP9E" />
 
       <main className={HomeStyles.main} >
         <Header/>
         <section className={HomeHeader.container}>
           <h1 className={HomeHeader.pageHeading}>
-            Text Lab
+            Text Effects
           </h1>
-          <p className={HomeHeader.pageHeadingSubtitle}>Working with text on the web</p>
+          <p className={HomeHeader.pageHeadingSubtitle}>Exploring the world of text effects </p>
 
-          <h2 className={HomeHeader.intro}>A collection of fun experiments, effects, examples and stuff I have learned as a developer about working with text on the web.</h2>
+          <h2 className={HomeHeader.intro}>A collection of fun experiments, effects, examples and tips on how to text effects using CSS, HTML, and JavaScript.</h2>
           <p className={HomeHeader.creator}>Made by <a href="https://mandy.dev" target="_blank">Mandy Michael</a> supported by <a href="https://www.instagram.com/adognamedjello" target="_blank">Jello</a>.</p>
           <p className={HomeHeader.volume}><span className={HomeHeader.volumeText}>Vol</span><span className={HomeHeader.volumeNum}>1.0</span></p>
         </section>

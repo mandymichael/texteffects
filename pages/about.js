@@ -13,8 +13,8 @@ import Footer from '../components/footer';
 export default function About() { 
     return (
         <div className={Generic.pageContainer}>
-            <HeadBlock title="About" description="About Text Lab" url="https://texteffects.dev/about" image="/images/metadata/main-og3.jpg" />
-            <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+            <HeadBlock title="About" description="About Text Effects" url="https://texteffects.dev/about" image="/images/metadata/main-og3.jpg" />
+            <GoogleAnalytics gaId="G-T24VEWMP9E" />
 
             <main className={HomeStyles.main}>
             <Header/>
@@ -26,9 +26,8 @@ export default function About() {
             </section>
 
             <section className={`${PostStyles.container} PostContent`}>
-                <p>This project was created by <a href="https://twitter.com/@mandy_kerr" target="_blank">Mandy Michael</a> to showcase the many possibilities and opportunities of text on the web.</p>
-                <p>Text, text properties and working with text on the web seems simple, but there are a lot of properties, approaches and best practices to consider to best represent your content. Text Lab
-                    aims to highlight modern approaches, new features in web technologies like CSS and Fonts, and teach you how to make the most of what the web has to offer for controlling and displaying text.
+                <p>This project was created by <a href="https://twitter.com/@mandy_kerr" target="_blank">Mandy Michael</a> to showcase all her experiments with creating text effects with HTML, CSS and JavaScript (and some SVG).</p>
+                <p>It's a creative journey exploring the world of text effects using CSS, HTML, and JavaScript! The aim is to showcase the tools and techniques that breathe life into text and demystify the process of replicating those cool Photoshop-like effects while keeping the basic web functionality intact – think editability, selectability, searchability, and the ability to copy and paste.
                 </p>
                 <p>Extra special thanks to <Link href="https://petebarr.com/">Pete Barr</Link> for designing the site for me.</p>
             </section>

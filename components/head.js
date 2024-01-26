@@ -16,7 +16,7 @@ export default function HeadBlock({title, description, url, keywords, image, cus
             <meta name="author" content="Mandy Michael" />
 
             <meta property="og:title" content={title} />
-            <meta property="og:site_name" content='Text Lab' />
+            <meta property="og:site_name" content='Text Effects' />
             <meta property="og:url" content={url} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content="article" />

@@ -32,7 +32,7 @@ export default function Post({ postData  }) {
         customStyles={postData.slug === 'roslindale' && 'roslindale'}
         canonical={postData.canonical}
       />
-      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+      <GoogleAnalytics gaId="G-T24VEWMP9E" />
       <PostMeta dateTime={postData.date} tags={postData.tags} />
       <article>
         <PostHeader 

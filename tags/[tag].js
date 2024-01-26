@@ -15,10 +15,10 @@ export default function Home({ articles, tag }) {
   return (
     <div className={Generic.pageContainer}>
       <Head>
-        <title>Text Lab</title>
+        <title>Text Effects</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <GoogleAnalytics gaId="G-BKGWYR0HVY" />
+      <GoogleAnalytics gaId="G-T24VEWMP9E" />
 
       <main className={HomeStyles.main} >
         <Header/>
