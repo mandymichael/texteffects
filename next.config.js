@@ -17,7 +17,11 @@ module.exports = {
       return [
         {
           source: '/demos/goldtext',
-          destination: '/demos/goldtext.html'
+          destination: '/demos/goldtext/goldtext.html'
+        },
+        {
+          source: '/demos/silvertext',
+          destination: '/demos/silvertext/silvertext.html'
         }
       ]
     }
