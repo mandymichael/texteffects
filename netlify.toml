@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/demos/goldtext/goldtext.html"
+  to = "/goldtext"
+
+[[redirects]]
+  from = "/demos/silvertext/silvertext.html"
+  to = "/silvertext"

@@ -9,21 +9,21 @@ module.exports = {
       return config
     },
     productionBrowserSourceMaps: true,
-    // i18n: {
-    //   locales: ["en"],
-    //   defaultLocale: "en",
-    // },
-    async rewrites() {
-      return [
-        {
-          source: '/goldtext',
-          destination: '/demos/goldtext/goldtext.html'
-        },
-        {
-          source: '/silvertext',
-          destination: '/demos/silvertext/silvertext.html'
-        }
-      ]
-    }
+    i18n: {
+      locales: ["en"],
+      defaultLocale: "en",
+    },
+    // async rewrites() {
+    //   return [
+    //     {
+    //       source: '',
+    //       destination: '/demos/goldtext/goldtext.html'
+    //     },
+    //     {
+    //       source: '/silvertext',
+    //       destination: '/demos/silvertext/silvertext.html'
+    //     }
+    //   ]
+    // }
   }
 
