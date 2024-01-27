@@ -13,5 +13,13 @@ module.exports = {
       locales: ["en"],
       defaultLocale: "en",
     },
+    async rewrites() {
+      return [
+        {
+          source: '/demos/goldtext',
+          destination: '/demos/goldtext.html'
+        }
+      ]
+    }
   }
 

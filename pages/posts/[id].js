@@ -4,7 +4,7 @@ import PostHeader from '../../components/postHeader';
 import Footer from '../../components/footer';
 import HeadBlock from '../../components/head';
 import dynamic from 'next/dynamic';
-import { RoslindaleMouseControl, marqueeScroll } from '../../lib/variablefonts';
+// import { RoslindaleMouseControl, marqueeScroll } from '../../lib/variablefonts';
 import generateRssFeed from '../../lib/generateRSSFeed';
 import { GoogleAnalytics } from '@next/third-parties/google'
 
@@ -16,10 +16,10 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export default function Post({ postData  }) {
 
-  if(postData.slug === 'roslindale' ) {
-    RoslindaleMouseControl();
-    marqueeScroll();
-  }
+  // if(postData.slug === 'goldtext' ) {
+  //   RoslindaleMouseControl();
+  //   marqueeScroll();
+  // }
  
   return (
     <Layout>

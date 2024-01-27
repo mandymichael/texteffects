@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title><![CDATA[Text Effects | RSS Feed]]></title>
-        <description><![CDATA[Text Effects, a creative journey exploring the world of text effects using CSS, HTML, and JavaScript!]]></description>
+        <description><![CDATA[Text Effects, a resource for using, styling and creating text on the web. Whether it is for fun, practical css, accessibility and more. Exploring modern text approaches.]]></description>
         <link>https://texteffects.dev</link>
         <image>
             <url>https://texteffects.dev/favicon-32x32.png</url>
@@ -9,9 +9,9 @@
             <link>https://texteffects.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Jan 2024 23:21:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jan 2024 05:05:48 GMT</lastBuildDate>
         <atom:link href="https://texteffects.dev/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Jan 2024 23:21:29 GMT</pubDate>
+        <pubDate>Fri, 26 Jan 2024 05:05:48 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
     </channel>
 </rss>

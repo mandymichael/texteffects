@@ -45,11 +45,9 @@ img {
 
 
 @font-face {
-  font-family: Roslindale;
-  src: url(../pages/fonts/RoslindaleVariable.woff2);
-  weight: 200 900;
-  width: 75 100;
-  font-optical-sizing: 10 48;
+  font-family: Rotor;
+  src: url(../pages/fonts/rotor-VF.woff2);
+  weight: 100 900;
   font-display: swap;
 }
 
@@ -114,7 +112,7 @@ blockquote {
 
   &::before {
     content: "\201C";
-    font-family: Roslindale, 'Times New Roman', serif;
+    font-family: Rotor, 'Times New Roman', serif;
     position: absolute;
     font-size: 3em;
     top: -0.2em;
