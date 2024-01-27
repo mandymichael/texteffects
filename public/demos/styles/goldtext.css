@@ -1,0 +1,90 @@
+:root {
+    --dark1: #443501;
+    --dark2:  #2c210d;
+    --dark3: #3a2c0f;
+    --darkest: #000000;
+    --mid1: #634f2c;
+    --light1: #c6bb9f;
+    --light2: #cfc09f;
+    --light3: #ffecb3;
+    --lightest: #fff;
+
+    --darkestO4: rgba(0, 0, 0, 0.4);
+  }
+
+
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url('../fonts/playfairdisplay-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: radial-gradient(ellipse at center, var(--dark1) 0%, var(--darkest) 100%);
+    height: 100%;
+    font-family: "Playfair Display";
+}
+
+
+.text {
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;  
+    font-size: 18vw;
+}
+
+h1 {
+    background: linear-gradient(to bottom, var(--light2) 22%, var(--mid1) 24%, var(--light2) 26%, var(--light2) 27%,var(--light3) 40%, var(--dark3) 78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: (var(--lightest));
+    position: relative;
+    z-index: 1;
+    outline: none;
+}
+
+span {
+    background: none;
+    position: absolute;
+    display: block;
+    text-shadow: -1px 0 1px  var(--light1), 0 1px 1px  var(--light1), 5px 5px 10px var(--darkestO4), -5px -5px 10px var(--darkestO4);
+}
+
+.button {
+    background: var(--light1);
+    color:  #000000;
+}
+
+.button:hover {
+    background: var(--dark2); 
+    color: var(--light1);
+    border: 1px solid var(--light1);
+}
+
+.font-size-wrapper {
+    color:  var(--light1);;
+}
+
+.font-button, .dialog-button, .close-button {
+    background: var(--light1);
+    color:  var(--darkest);
+}
+
+.font-button:hover, .dialog-button:hover,  .close-button:hover {
+    background:  var(--dark2); 
+    color:  var(--light1);
+    border: 1px solid var(--light1);;
+}
+
+
+.dialog {
+    background: var(--dark3);
+    color: var(--light1);
+}
+
+.dialog a {
+    color: var(--light1);
+}
