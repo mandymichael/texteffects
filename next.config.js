@@ -16,11 +16,11 @@ module.exports = {
     async rewrites() {
       return [
         {
-          source: '/demos/goldtext',
+          source: '/goldtext',
           destination: '/demos/goldtext/goldtext.html'
         },
         {
-          source: '/demos/silvertext',
+          source: '/silvertext',
           destination: '/demos/silvertext/silvertext.html'
         }
       ]

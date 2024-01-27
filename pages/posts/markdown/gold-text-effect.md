@@ -1,7 +1,7 @@
 ---
 title: Gold Text Effect with CSS
 date: '2024-01-27'
-summary: 'Create a CSS only Gold Text Effect using CSS Gradients and text shadows. '
+summary: 'Create a CSS only Gold Text Effect using CSS Gradients and text shadows.'
 tags:
     - effect
     - demo
