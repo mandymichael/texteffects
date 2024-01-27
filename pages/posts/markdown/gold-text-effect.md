@@ -31,7 +31,7 @@ demo: {
 
 Replicating the look of "gold" in anything can be quite tricky and often it comes out looking a bit subdued. However, I came across this <a href="https://design.tutsplus.com/tutorials/how-to-create-a-gold-text-effect-in-photoshop--psd-63">Gold Text Effect in PhotoShop</a> by <a href="https://abduzeedo.com/">Fabio Sasso</a> and I felt like they really nailed the gradient. So I decided to give it a try and see if I could replicate it in CSS. I'll be using <a href="https://fonts.google.com/specimen/Playfair+Display">Playfair Display</a> available on Google Fonts for this demo. It's free to use so you can go ahead and use that as well if you want.
 
-If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/pen/xpLNeV?editors=0010">Codepen</a> and have a play. Or you can check out <a href="/demos/goldtext">the full page gold text demo</a> or the <a href="/demos/silvertext">full page silver demo</a>.
+If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/pen/xpLNeV?editors=0010">Codepen</a> and have a play. Or you can check out <a href="/goldtext">the full page gold text demo</a> or the <a href="/silvertext">full page silver demo</a>.
 
 <div class="codepen"><div class="codepen"><iframe height="400" style="width: 100%;" scrolling="no" title="Gold Text Effect" src="//codepen.io/mandymichael/embed/xpLNeV/?height=300&theme-id=dark&default-tab=result" frameBorder="no" allowfullscreen="true"></iframe></div></div>
 
