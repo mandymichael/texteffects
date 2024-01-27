@@ -9,15 +9,15 @@
             <link>https://texteffects.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Jan 2024 05:05:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jan 2024 02:33:36 GMT</lastBuildDate>
         <atom:link href="https://texteffects.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 26 Jan 2024 05:05:48 GMT</pubDate>
+        <pubDate>Sat, 27 Jan 2024 02:33:36 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
         <item>
-            <title><![CDATA[Test Post]]></title>
-            <link>https://texteffects.dev/posts/test-post</link>
-            <guid isPermaLink="true">https://texteffects.dev/posts/test-post</guid>
-            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+            <title><![CDATA[Oozing Dark Mode Text with Chee]]></title>
+            <link>https://texteffects.dev/posts/ooze-cheee-demo</link>
+            <guid isPermaLink="true">https://texteffects.dev/posts/ooze-cheee-demo</guid>
+            <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

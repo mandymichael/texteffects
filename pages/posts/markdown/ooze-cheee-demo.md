@@ -7,6 +7,7 @@ tags:
     - demo
     - theme
     - article
+    - featured
 featureFont: {
     font: Chee, 
     author: James Edmondson,

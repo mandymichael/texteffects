@@ -4,7 +4,6 @@ import PostHeader from '../../components/postHeader';
 import Footer from '../../components/footer';
 import HeadBlock from '../../components/head';
 import dynamic from 'next/dynamic';
-// import { RoslindaleMouseControl, marqueeScroll } from '../../lib/variablefonts';
 import generateRssFeed from '../../lib/generateRSSFeed';
 import { GoogleAnalytics } from '@next/third-parties/google'
 
@@ -15,11 +14,6 @@ const PostContent = dynamic(() => import('../../components/postContent'), {
 import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export default function Post({ postData  }) {
-
-  // if(postData.slug === 'goldtext' ) {
-  //   RoslindaleMouseControl();
-  //   marqueeScroll();
-  // }
  
   return (
     <Layout>
