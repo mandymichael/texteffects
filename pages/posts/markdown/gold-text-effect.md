@@ -20,7 +20,7 @@ card: {
     cardImage: /images/post-assets/goldtext/gold-card.jpg,
     cardAlt: The word winner in gold looking text,
     featured: /images/post-assets/goldtext/gold-featured.jpg,
-    cardFeaturedSummary: Gold Text
+    cardFeaturedSummary: If you're looking for a luxurious, fancy text effect that is reminiscent of gold, look no further than this CSS only Gold Text Effect. A simple yet effective approach to creating gold look text on the web. The approach is so simple that it can be applied to other "shiny" looking gradient effects including silver.
 }
 demo: {
     url: https://codepen.io/mandymichael/pen/xpLNeV?editors=0010,
@@ -29,9 +29,9 @@ demo: {
 }
 ---
 
-Replicating the look of "gold" in anything can be quite tricky and often it comes out looking a bit subdued. However, I came across this <a href="https://design.tutsplus.com/tutorials/how-to-create-a-gold-text-effect-in-photoshop--psd-63">Gold Text Effect in PhotoShop</a> by <a href="https://abduzeedo.com/">Fabio Sasso</a> and I felt like they really nailed the gradient. So I decided to give it a try and see if I could replicate it in CSS. I'll be using <a href="https://fonts.google.com/specimen/Playfair+Display">Playfair Display</a> available on Google Fonts for this demo. It's free to use so you can go ahead and use that as well if you want.
+Replicating the look of "gold" in anything can be quite tricky and often it comes out looking a bit subdued. However, I came across this <a href="https://design.tutsplus.com/tutorials/how-to-create-a-gold-text-effect-in-photoshop--psd-63">Gold Text Effect in PhotoShop</a> by <a href="https://abduzeedo.com/">Fabio Sasso</a> and I felt like they really nailed the gradient. So I decided to give it a try and see if I could replicate it in CSS. I'll be using <a href="https://fonts.google.com/specimen/Playfair+Display">Playfair Display</a> available on Google Fonts for this demo. It's free to use so you can go ahead and use that as well if you want. Otherwise I find, Times New Roman is also a good choice, basically I think it looks best with any kind of serif font with sharp lines. 
 
-If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/pen/xpLNeV?editors=0010">Codepen</a> and have a play. Or you can check out <a href="/goldtext">the full page gold text demo</a> or the <a href="/silvertext">full page silver demo</a>.
+If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/pen/xpLNeV?editors=0010">Codepen</a> and have a play. Or you can check out <a href="/goldtext">the full page gold text demo</a> or if you're curious about other versions I've also made a  <a href="https://codepen.io/mandymichael/pen/zYbPavV?editors=0100">silver demo on Codepen</a>. You can view the <a href="/silvertext">full page silver demo</a> as well.
 
 <div class="codepen"><div class="codepen"><iframe height="400" style="width: 100%;" scrolling="no" title="Gold Text Effect" src="//codepen.io/mandymichael/embed/xpLNeV/?height=300&theme-id=dark&default-tab=result" frameBorder="no" allowfullscreen="true"></iframe></div></div>
 
