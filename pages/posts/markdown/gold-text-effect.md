@@ -20,7 +20,7 @@ card: {
     cardImage: /images/post-assets/goldtext/gold-card.jpg,
     cardAlt: The word winner in gold looking text,
     featured: /images/post-assets/goldtext/gold-featured.jpg,
-    cardFeaturedSummary: If you're looking for a luxurious, fancy text effect that is reminiscent of gold, look no further than this CSS only Gold Text Effect. A simple yet effective approach to creating gold look text on the web. The approach is so simple that it can be applied to other "shiny" looking gradient effects including silver.
+    cardFeaturedSummary: If you're looking for a luxurious fancy text effect that is reminiscent of gold look no further than this CSS only Gold Text Effect. A simple yet effective approach to creating gold look text on the web. The approach is so simple that it can be applied to other shiny looking gradient effects including silver.
 }
 demo: {
     url: https://codepen.io/mandymichael/pen/xpLNeV?editors=0010,
