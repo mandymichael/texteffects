@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Freeze Text Effect</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./demos/styles/global.css">
+  <link rel="stylesheet" href="./demos/freezetext/freezetext.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2154203771688875"
+     crossorigin="anonymous" defer></script>
+     <meta name="google-adsense-account" content="ca-pub-2154203771688875">
+
+</head>
+<body id="capture">
+  <div class="wrapper" id="wrapper">
+    <h1 class="text" id="text" contenteditable>Freeze</h1>
+    <span class="text" id="copy" aria-hidden="true">Freeze</h1>
+  </div>
+  <button type="button" class="button" id="button">Take a Screenshot</button>
+
+  <div class="font-size-wrapper">
+    Change font size: 
+    <button type="button" class="font-button" id="up"><span class="visually-hidden">Increase font size</span>+</button>
+    <button type="button" class="font-button" id="down"><span class="visually-hidden">Decrease font size</span>-</button>
+  </div>
+
+  <dialog class="dialog">
+    <h2>Need Help?</h2>
+    <p>If the cursor is still showing in your image click outside of the text area and take the snapshot again.</p>
+    <p>Otherwise please feel free to log issues on the <a href="https://github.com/mandymichael/texteffects/issues">Github page</a>.</p>
+    <p>You can see the code for this demo on <a href="https://codepen.io/mandymichael/pen/wpYQKx">Codepen</a> or <a href="/posts/gold-text">read the tutorial</a>.</a></p>
+    <button autofocus class="close-button">Close</button>
+  </dialog>
+
+  <button class="dialog-button"><span class="visually-hidden">Need Help</span>?</button>
+
+  <div id="output"></div>
+
+  <script src="https://unpkg.com/modern-screenshot"></script>
+  <script  src="./demos/scripts/script.js"></script>
+
+</body>
+</html>
