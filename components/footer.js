@@ -1,4 +1,5 @@
 import FooterStyles from '../styles/Footer.module.css';
+import LogoStyles from '../styles/Logo.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import {LinkedIn, Github } from './icons'
@@ -7,8 +8,10 @@ export default function Footer() {
     return (
         <footer className={FooterStyles.footerContainer}>
             <div className={FooterStyles.footerBlock}>
-                <Image src="/images/Logo.svg" alt="Text Effects" className={FooterStyles.logo} width="80" height="80" />
-            </div>
+                <Link href="/"  className={LogoStyles.logo}>
+                    <p className={LogoStyles.logoText}><span aria-hidden="true">TE</span> <span className="visually-hidden">Text Effects</span></p>
+                </Link>           
+             </div>
             
             <div className={FooterStyles.footerLinks}>
                 <nav className={FooterStyles.nav}>

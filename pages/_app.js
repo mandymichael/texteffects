@@ -2,7 +2,7 @@ import '../styles/global.css';
 import localFont from 'next/font/local'
 
 const roboto = localFont({ src: './fonts/RobotoFlex.woff2'});
-const roslindale = localFont({ src: './fonts/RoslindaleVariable.woff2'});
+const rotor = localFont({ src: './fonts/rotor-VF.woff2'});
 
 function App({ Component, pageProps }) {
   return (
@@ -13,7 +13,7 @@ function App({ Component, pageProps }) {
         }
 
         h1 {
-          font-family: ${roslindale.style.fontFamily};
+          font-family: ${rotor.style.fontFamily};
         }
       `}</style>
       <Component {...pageProps} />

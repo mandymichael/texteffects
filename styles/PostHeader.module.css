@@ -13,7 +13,7 @@
     top: 0;
     display: block;
     content: "";
-    background: #E9F3F5;
+    background: #ebeaf8;
     width: 100vw;
     height: 70%;
     z-index: -1;
@@ -34,7 +34,12 @@
     margin-bottom: clamp(1rem, 10 * (1vw) / 2, 3.750rem);
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    letter-spacing: -0.1rem;
+    letter-spacing: -0.2rem;
+    text-transform: uppercase;
+    color: #cfb0c3;
+    position: relative;
+    font-variation-settings: "RTTX" 11, "DPTH" 0, "OFST" -40;
+
 }
 
 @media screen and (min-width: 48em) {
@@ -42,6 +47,17 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
+}
+
+.layer {
+    position: absolute;
+    color: transparent;
+    background-image: linear-gradient(#1e758a, #4025ac);
+    background-clip: text;
+    left: 0;
+    top: -1px;
+    font-variation-settings: "RTTX" 20, "DPTH" 0;
+
 }
 
 .summary {

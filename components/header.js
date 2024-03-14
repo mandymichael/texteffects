@@ -1,11 +1,13 @@
 import HeaderStyles from '../styles/Header.module.css';
+import LogoStyles from '../styles/Logo.module.css';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header() {
     return (
         <header className={HeaderStyles.headerContainer}>
-            <Link href="/"><Image src="/images/Logo.svg" alt="Text Effects" className={HeaderStyles.logo} width="80" height="80" /></Link>
+            <Link href="/" className={`${HeaderStyles.logo} ${LogoStyles.logo}`}>
+                <p className={LogoStyles.logoText}><span aria-hidden="true">TE</span> <span className="visually-hidden">Text Effects</span></p>
+            </Link>
 
             <nav className={HeaderStyles.nav}>
                 <ul className={HeaderStyles.navList}>

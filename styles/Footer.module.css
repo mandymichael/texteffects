@@ -3,7 +3,7 @@
 }
 
 .footerBlock {
-    background: #E9F3F5;
+    background: #ebeaf8;
     border-bottom: 3px solid #17171C;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@
 }
 
 .navLink:hover {
-    color: #C22E84;
+    color: #4025ac;
 }
 
 .footnote {

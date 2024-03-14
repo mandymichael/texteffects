@@ -22,12 +22,42 @@
 }
 
 .pageHeading {
-    font-size: clamp(3rem, 9vw + 1rem, 8.438rem);
+    font-size: clamp(3rem, 9vw + 1rem, 7rem);
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 3rem 0;
+    font-variation-settings: "RTTX" 89, "DPTH" 51, "OFST" 0;
+    color: transparent;
+    background-image: linear-gradient(#1e758a, #4025ac);
+    background-clip: text;
+    -webkit-box-reflect: below -33px linear-gradient(transparent 30%, rgba(0,0,0,0.3));
+    box-reflect: below -33px linear-gradient(transparent 30%, rgba(0,0,0,0.3));
+}
+
+.pageHeading span {
+    animation: rotate .75s cubic-bezier(.5, 0, .5, 1) both;
+    animation-delay: calc(.25s + (120ms * var(--char-index)));
+    color: inherit;
+    background-image: inherit;
+    background-clip: inherit;
+}
+
+@keyframes rotate {
+    0% {
+        font-variation-settings: "RTTX" 89, "DPTH" 51, "OFST" 0;
+    }
+
+    100% {
+        font-variation-settings: "RTTX" 0, "DPTH" 0, "OFST" 0;
+    }
+}
+
+@media (prefers-reduced-motion) {
+        .logoText {
+        font-variation-settings: "RTTX" 0, "DPTH" 0, "OFST" 0;
+    }
 }
 
 .pageHeadingSubtitle {

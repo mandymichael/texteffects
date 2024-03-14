@@ -46,15 +46,16 @@ img {
 
 @font-face {
   font-family: Rotor;
-  src: url(../pages/fonts/rotor-VF.woff2);
+  src: url('../public/fonts/rotor-VF.woff2');
   weight: 100 900;
   font-display: swap;
 }
 
 a {
-  color: #C22E84;
+  color: #4025ac;
   text-decoration: underline;
   cursor: pointer;
+  transition: color 150ms ease;
 }
 
 a:hover,
@@ -112,12 +113,12 @@ blockquote {
 
   &::before {
     content: "\201C";
-    font-family: Rotor, 'Times New Roman', serif;
+    font-family: Rotor, sans-serif;
     position: absolute;
     font-size: 3em;
     top: -0.2em;
     left: -0.6em;
-    color: #C22E84;
+    color: #4025ac;
   }
 }
 
@@ -160,7 +161,7 @@ cite {
 .PostContent .videoPlayer::before {
   content: "";
   width: calc(100% + 2rem);
-  background: #E9F3F5;
+  background: #ebeaf8;
   height: calc(100% + 2rem);
   display: block;
   top: -1rem;
@@ -208,8 +209,6 @@ pre,
   margin: 0;
 }
 
-
-
 .videoPlayer {
   position: relative;
   padding-top: 56.25%;
@@ -222,4 +221,14 @@ pre,
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }

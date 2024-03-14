@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function PostHeader({title, summary, featureFont, demo}) {
     return (
        <div className={PostHeaderStyles.container}>
-        <h1 className={PostHeaderStyles.heading}>{title}</h1>
+        <h1 className={PostHeaderStyles.heading}>{title}<span aria-hidden="true" className={PostHeaderStyles.layer}>{title}</span></h1>
         <p className={PostHeaderStyles.summary}>{summary}</p>
         <figure className={PostHeaderStyles.figure}>
             {featureFont && featureFont.image && !featureFont.video &&
