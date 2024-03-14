@@ -23,17 +23,14 @@
 
 .pageHeading {
     font-size: clamp(3rem, 9vw + 1rem, 7rem);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 3rem 0;
     font-variation-settings: "RTTX" 89, "DPTH" 51, "OFST" 0;
     color: transparent;
     background-image: linear-gradient(#1e758a, #4025ac);
     background-clip: text;
-    -webkit-box-reflect: below -33px linear-gradient(transparent 30%, rgba(0,0,0,0.3));
-    box-reflect: below -33px linear-gradient(transparent 30%, rgba(0,0,0,0.3));
+    -webkit-box-reflect: below -0.6ch linear-gradient(transparent 30%, rgba(0,0,0,0.3));
+    box-reflect: below -0.6ch linear-gradient(transparent 30%, rgba(0,0,0,0.3));
 }
 
 .pageHeading span {
