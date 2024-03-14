@@ -20,12 +20,14 @@ export default function Home({ recentPosts, featuredPost }) {
 
   let target;
 
-  setTimeout(() => {
-      if ( window && document && target ) {
-          const Splitting = require('Splitting');
-          Splitting({ by: "chars", target: target,  });
-      }
-  });
+  if (typeof window !== "undefined" && typeof document !=="undefined") {
+    setTimeout(() => {
+        if ( window && document && target ) {
+            const Splitting = require('splitting');
+            Splitting({ by: "chars", target: target,  });
+        }
+    });
+  }
 
   return (
     <div className={Generic.pageContainer}>
