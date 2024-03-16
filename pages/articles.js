@@ -46,7 +46,10 @@ export default function Home({ articles, featuredList, displayList }) {
             </section>
 
             {featuredList.length > 0 &&  <FeaturedPost featuredPost={featuredList} />}
-            <PostList posts={displayList} title="Articles" tagType="all" postType="article" />
+            {/* {displayList > 0 
+                ? <PostList posts={displayList} title="Articles" tagType="all" postType="article" />
+                : <p>Coming Soon</p>
+            } */}
         </main>
       <Footer />
     </div>
