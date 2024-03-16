@@ -8,6 +8,7 @@ tags:
     - gold
     - gradients
     - featured
+    - article
 featureFont: {
     font: Playfair Display, 
     author: Claus Eggers Sørensen,
