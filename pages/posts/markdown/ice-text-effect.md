@@ -28,7 +28,8 @@ demo: {
 
 I made this text effect for a talk I was giving to a girls primary school, I wanted to demonstrate ways in which you could utilise web development to create fun things, and of course put your name in your favourite styles. 
 
-I'll be using a free font called "Ice Kingdom Bold by Kustren" I don't have a download available but you can search for it yourself if you want the same style. Otherwise you can go to the <a href="/icetext">full screen frozen demo</a> and check it out. 
+I'll be using a free font called "Ice Kingdom Bold by Kustren" I don't have a download available but you can search for it yourself if you want the same style. Otherwise you can go to the <a href="/icetext">full screen frozen demo</a> and check it out.  If you prefer video tutorials to written ones, you can check out the [Ice CSS Text Effect Video](https://www.youtube.com/watch?v=bO3-0G-l3bg) on my [YouTube Channel](https://www.youtube.com/@whatstheteawithmandy).
+
 
 If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/details/wpYQKx">Freeze Text Codepen</a> and have a play. Or you can check out <a href="/icetext">the full page demo</a>.
 
