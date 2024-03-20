@@ -28,9 +28,9 @@ demo: {
 
 I made this text effect for a talk I was giving to a girls primary school, I wanted to demonstrate ways in which you could utilise web development to create fun things, and of course put your name in your favourite styles. 
 
-I'll be using a free font called "Ice Kingdom Bold by Kustren" I don't have a download available but you can search for it yourself if you want the same style. Otherwise you can go to the <a href="/freezetext">full screen frozen demo</a> and check it out. 
+I'll be using a free font called "Ice Kingdom Bold by Kustren" I don't have a download available but you can search for it yourself if you want the same style. Otherwise you can go to the <a href="/icetext">full screen frozen demo</a> and check it out. 
 
-If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/details/wpYQKx">Freeze Text Codepen</a> and have a play. Or you can check out <a href="/freezetext">the full page demo</a>.
+If you want to skip the explanation you can jump straight to the <a href="https://codepen.io/mandymichael/details/wpYQKx">Freeze Text Codepen</a> and have a play. Or you can check out <a href="/icetext">the full page demo</a>.
 
 <div class="codepen"><div class="codepen"><iframe height="400" style="width: 100%;" scrolling="no" title="Gold Text Effect" src="//codepen.io/mandymichael/embed/wpYQKx/?height=300&theme-id=dark&default-tab=result" frameBorder="no" allowfullscreen="true"></iframe></div></div>
 
@@ -234,6 +234,6 @@ h1 {
 
 This will give you text that hopefully looks like the image below. In order to create my demo I've added in some positioning which you can check out in the <a href="https://codepen.io/mandymichael/pen/xpLNeV?editors=0010">Codepen example</a>. If you don't need the animation the `drop-shadow` version is a lot better as it only requires one html element, however if you want to do something a bit fancy or you're finding some performance problems happening you know you have the `text-shadow` option with layers to fall back on.
 
-You can find all the code for the <a href="https://codepen.io/mandymichael/details/wpYQKx">Ice Text on Codepen</a> you'll notice it has commented out code, that includes the options for animation and text shadow as well. Or you can check out the <a href="/freezetext">editable full page demo</a> and take some screen shots.
+You can find all the code for the <a href="https://codepen.io/mandymichael/details/wpYQKx">Ice Text on Codepen</a> you'll notice it has commented out code, that includes the options for animation and text shadow as well. Or you can check out the <a href="/icetext">editable full page demo</a> and take some screen shots.
 
 <div class="codepen"><div class="codepen"><iframe height="400" style="width: 100%;" scrolling="no" title="Gold Text Effect" src="//codepen.io/mandymichael/embed/wpYQKx/?height=300&theme-id=dark&default-tab=result" frameBorder="no" allowfullscreen="true"></iframe></div></div>
