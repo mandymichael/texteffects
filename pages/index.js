@@ -16,7 +16,7 @@ import "splitting/dist/splitting-cells.css";
 const description="Articles exploring the world of text effects using CSS, HTML, and JavaScript" 
 const keywords ='Text Effects, css, mandy michael'
 
-export default function Home({ recentPosts, featuredPost }) {
+export default function Home({ recentPosts, featuredPost, articles }) {
 
   let target;
 

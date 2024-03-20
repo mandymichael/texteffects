@@ -1,10 +1,23 @@
 
-// JS is to make the text editable for demo purpose, not required for the effect. Thanks for the suggestion @chriscoyier! 
 const h1 = document.querySelector("h1");
-const copy = document.getElementById("copy");
 
 h1.addEventListener("input", function() {
-    copy.innerText = h1.innerText;
+
+  if(document.getElementById("attr")) {
+      this.setAttribute("data-heading", this.innerText);
+  }
+
+    if(document.getElementById("copy")) {
+      const copy = document.getElementById("copy");
+      copy.innerText = h1.innerText;
+
+    }
+
+    if(document.getElementById("copy2")) {
+      const copy2 = document.getElementById("copy");
+        copy2.innerText = h1.innerText;
+    }
+
 });
 
 window.addEventListener('keydown',function(e) {
@@ -50,7 +63,7 @@ function download( canvas, filename ) {
 function onScreenShotClick(event){
 
     const filter = (node) => {
-        const exclusionClasses = ['button', 'font-size-wrapper', 'dialog'];
+        const exclusionClasses = ['button', 'font-size-wrapper', 'dialog', 'dialog-button'];
         return !exclusionClasses.some((classname) => node.classList?.contains(classname));
       }
       
@@ -67,12 +80,10 @@ const dialog = document.querySelector("dialog");
 const showButton = document.querySelector("dialog + button");
 const closeButton = document.querySelector("dialog button");
 
-// "Show the dialog" button opens the dialog modally
 showButton.addEventListener("click", () => {
   dialog.showModal();
 });
 
-// "Close" button closes the dialog
 closeButton.addEventListener("click", () => {
   dialog.close();
 });

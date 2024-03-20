@@ -9,10 +9,16 @@
             <link>https://texteffects.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 14 Mar 2024 02:59:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Mar 2024 00:28:46 GMT</lastBuildDate>
         <atom:link href="https://texteffects.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 14 Mar 2024 02:59:58 GMT</pubDate>
+        <pubDate>Wed, 20 Mar 2024 00:28:46 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
+        <item>
+            <title><![CDATA[Ice Text Effect with CSS]]></title>
+            <link>https://texteffects.dev/posts/ice-text-effect</link>
+            <guid isPermaLink="true">https://texteffects.dev/posts/ice-text-effect</guid>
+            <pubDate>Wed, 20 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Gold Text Effect with CSS]]></title>
             <link>https://texteffects.dev/posts/gold-text-effect</link>

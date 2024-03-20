@@ -66,7 +66,7 @@ span {
 }
 
 .font-size-wrapper {
-    color:  var(--light1);;
+    color:  var(--light1);
 }
 
 .font-button, .dialog-button, .close-button {
@@ -77,7 +77,7 @@ span {
 .font-button:hover, .dialog-button:hover,  .close-button:hover {
     background:  var(--dark2); 
     color:  var(--light1);
-    border: 1px solid var(--light1);;
+    border: 1px solid var(--light1);
 }
 
 
