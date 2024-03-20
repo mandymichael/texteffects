@@ -26,7 +26,7 @@ demo: {
 }
 ---
 
-I made this text effect for a talk I was giving to a girls primary school, I wanted to demonstrate ways in which you could utilise web development to create fun things, and of course put your name in your favourite styles. If you prefer video tutorials to written ones, you can check out the [Frozen CSS Text Effect Video](XXX) on YouTube. 
+I made this text effect for a talk I was giving to a girls primary school, I wanted to demonstrate ways in which you could utilise web development to create fun things, and of course put your name in your favourite styles. 
 
 I'll be using a free font called "Ice Kingdom Bold by Kustren" I don't have a download available but you can search for it yourself if you want the same style. Otherwise you can go to the <a href="/freezetext">full screen frozen demo</a> and check it out. 
 
