@@ -1,5 +1,6 @@
 
 const h1 = document.querySelector("h1");
+const noEnter = document.querySelector(".noEnter");
 
 h1.addEventListener("input", function() {
 
@@ -20,12 +21,15 @@ h1.addEventListener("input", function() {
 
 });
 
+if(noEnter) {
+
 window.addEventListener('keydown',function(e) {
     if (e.keyIdentifier=='U+000A' || e.keyIdentifier=='Enter' || e.keyCode==13) {
             e.preventDefault();
             return false;
     }
 }, true);
+}
 
 const increment = document.getElementById('up');
 const decrement = document.getElementById('down');
