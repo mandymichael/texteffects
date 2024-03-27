@@ -13,21 +13,25 @@ module.exports = {
       locales: ["en"],
       defaultLocale: "en",
     },
-    async rewrites() {
-      return [
-        {
-          source: '/goldtext',
-          destination: '/demos/goldtext/goldtext.html'
-        },
-        {
-          source: '/silvertext',
-          destination: '/demos/silvertext/silvertext.html'
-        },
-        {
-          source: '/freezetext',
-          destination: '/demos/freezetext/freezetext.html'
-        }
-      ]
-   }
+  //   async rewrites() {
+  //     return [
+  //       {
+  //         source: '/goldtext',
+  //         destination: '/demos/goldtext/goldtext.html'
+  //       },
+  //       {
+  //         source: '/silvertext',
+  //         destination: '/demos/silvertext/silvertext.html'
+  //       },
+  //       {
+  //         source: '/freezetext',
+  //         destination: '/demos/freezetext/freezetext.html'
+  //       },
+  //       {
+  //         source: '/flickertext',
+  //         destination: '/demos/flickering/flickering.html'
+  //       }
+  //     ]
+  //  }
   }
 
