@@ -4,9 +4,9 @@ const noEnter = document.querySelector(".noEnter");
 
 h1.addEventListener("input", function() {
 
-  if(document.getElementById("attr")) {
-      this.setAttribute("data-heading", this.innerText);
-  }
+    if(document.getElementById("attr")) {
+        this.setAttribute("data-heading", this.innerText);
+    }
 
     if(document.getElementById("copy")) {
       const copy = document.getElementById("copy");
@@ -67,7 +67,7 @@ function download( canvas, filename ) {
 function onScreenShotClick(event){
 
     const filter = (node) => {
-        const exclusionClasses = ['button', 'font-size-wrapper', 'dialog', 'dialog-button'];
+        const exclusionClasses = ['button', 'font-size-wrapper', 'dialog', 'dialog-button', 'controls'];
         return !exclusionClasses.some((classname) => node.classList?.contains(classname));
       }
       

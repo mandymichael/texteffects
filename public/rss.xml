@@ -9,10 +9,16 @@
             <link>https://texteffects.dev</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 23 Mar 2024 05:59:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Mar 2024 03:41:54 GMT</lastBuildDate>
         <atom:link href="https://texteffects.dev/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 23 Mar 2024 05:59:34 GMT</pubDate>
+        <pubDate>Wed, 27 Mar 2024 03:41:54 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024, Mandy Michael]]></copyright>
+        <item>
+            <title><![CDATA[Flickering Glowing Text Effect with CSS]]></title>
+            <link>https://texteffects.dev/posts/flickering-text-effect</link>
+            <guid isPermaLink="true">https://texteffects.dev/posts/flickering-text-effect</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ice Text Effect with CSS]]></title>
             <link>https://texteffects.dev/posts/ice-text-effect</link>
