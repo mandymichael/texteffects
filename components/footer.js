@@ -3,6 +3,7 @@ import LogoStyles from '../styles/Logo.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import {LinkedIn, Github } from './icons'
+import MandysWebring from './webring';
 
 export default function Footer() {
     return (
@@ -12,6 +13,7 @@ export default function Footer() {
                     <p className={LogoStyles.logoText}><span aria-hidden="true">TE</span> <span className="visually-hidden">Text Effects</span></p>
                 </Link>           
              </div>
+             <MandysWebring />
             
             <div className={FooterStyles.footerLinks}>
                 <nav className={FooterStyles.nav}>
